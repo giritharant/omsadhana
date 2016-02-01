@@ -36,6 +36,7 @@
     line-height: 80px;
     letter-spacing:2px;
 }
+
 .navbar-nav > li > a {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -48,6 +49,23 @@
 	background-color:rgb(8, 39, 66);
 	border-color:rgba(247, 247, 247, 0);
 }
+@media (max-width: 1000px)
+{
+	.navbar-brand
+	{
+		font-size:15px;
+		line-height:80px;
+	}
+	.navbar-brand>img
+	{
+		display:none;
+	}
+	#foot
+	{
+		text-align:center;
+	}
+}
+
 @media (max-width: 767px) {
     .navbar-nav > li > a {
     line-height: 20px;
@@ -56,13 +74,37 @@
     .navbar-brand
     {
     	letter-spacing:.05px;
-    	line-height: 15px;
+    	line-height: 44px;
     	padding-top: 0px;
     	padding-bottom: 0px;
     	margin-left:0;
     	
 	}
 }
+
+@media (max-width:330px)
+{
+	.navbar-brand
+	{
+		font-size:11px;
+	}
+	
+}
+@media (max-width:264px)
+{
+		.navbar-brand
+	{
+		font-size:8px;
+	}
+}
+@media (max-width:224px)
+{
+	.navbar-brand
+	{
+		font-size:6px;
+	}
+}
+
 h1
 {
 	font-size:1.8em;
